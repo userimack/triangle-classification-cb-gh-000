@@ -8,7 +8,7 @@ class Triangle
   end 
   
   def valid?
-    if not self.length + self.breadth > self.height or 
+    if not (self.length + self.breadth > self.height) or 
       
 
   class TriangleError < StandardError
