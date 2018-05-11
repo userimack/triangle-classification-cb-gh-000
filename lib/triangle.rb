@@ -11,7 +11,8 @@ class Triangle
     valid 
     if a == b && b == c 
       :equilateral 
-      elsif 
+    elsif a == b || b == c || a == c
+      :isoceles  
     
   
   def valid
