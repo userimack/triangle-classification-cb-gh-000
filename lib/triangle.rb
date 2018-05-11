@@ -12,7 +12,7 @@ class Triangle
     if a == b && b == c 
       :equilateral 
     elsif a == b || b == c || a == c
-      :isoceles  
+      :isosceles  
     
   
   def valid
