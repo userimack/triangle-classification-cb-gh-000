@@ -9,9 +9,9 @@ class Triangle
   
   def kind 
     valid 
-    if a == b && b == c 
+    if length == breadth && breadth == height 
       :equilateral 
-    elsif a == b || b == c || a == c
+    elsif length == breadth || breadth == height || length == height
       :isosceles
     else 
       :scalene 
