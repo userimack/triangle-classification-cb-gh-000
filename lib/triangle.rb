@@ -7,6 +7,8 @@ class Triangle
     @height = height
   end 
   
+  def valid? 
+  
 
   class TriangleError < StandardError
     # triangle error code
