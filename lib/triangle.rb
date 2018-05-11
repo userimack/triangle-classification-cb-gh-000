@@ -9,7 +9,7 @@ class Triangle
   
   def kind 
     valid 
-    
+    if a == 
     
   
   def valid
