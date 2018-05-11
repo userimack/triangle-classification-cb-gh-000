@@ -14,9 +14,10 @@ class Triangle
     elsif a == b || b == c || a == c
       :isosceles
     else 
-      :scalene
-    
-  
+      :scalene 
+    end 
+  end 
+
   def valid
     real_triangle = [(length + breadth > height), 
     (breadth + height > length),
