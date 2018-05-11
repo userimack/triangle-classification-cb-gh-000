@@ -8,7 +8,12 @@ class Triangle
   end 
   
   def valid?
-    real_triangle = [lenght + breadth > height]
+    real_triangle = [(length + breadth > height), 
+    (breadth + height > length),
+    (length + height > breadth)
+    ]
+    
+    [length, breadth, height].each {|size| if size < 0 }
       
 
   class TriangleError < StandardError
