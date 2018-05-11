@@ -13,7 +13,8 @@ class Triangle
     (length + height > breadth)
     ]
     
-    [length, breadth, height].each {|size| real_triangle << false if size < 0 }
+    [length, breadth, height].each {|size| real_triangle << false if size <= 0 }
+    
       
 
   class TriangleError < StandardError
