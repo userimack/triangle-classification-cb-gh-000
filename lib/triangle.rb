@@ -9,7 +9,8 @@ class Triangle
   
   def kind 
     valid 
-    if a == 
+    if a == b && b == c 
+      
     
   
   def valid
