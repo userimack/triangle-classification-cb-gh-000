@@ -7,6 +7,8 @@ class Triangle
     @height = height
   end 
   
+  def kind 
+    
   def valid?
     if not (self.length + self.breadth > self.height) or 
       
