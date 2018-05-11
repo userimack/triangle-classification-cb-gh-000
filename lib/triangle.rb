@@ -6,6 +6,7 @@ class Triangle
     @breadth = breadth
     @height = height
   end 
+  
 
   class TriangleError < StandardError
     # triangle error code
