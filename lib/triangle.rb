@@ -7,7 +7,12 @@ class Triangle
     @height = height
   end 
   
-  def valid?
+  def kind 
+    valid 
+    
+    
+  
+  def valid
     real_triangle = [(length + breadth > height), 
     (breadth + height > length),
     (length + height > breadth)
@@ -15,6 +20,7 @@ class Triangle
     
     [length, breadth, height].each {|size| real_triangle << false if size <= 0 }
     raise TriangleError if real_triangle.include?(false)
+  end 
       
 
   class TriangleError < StandardError
