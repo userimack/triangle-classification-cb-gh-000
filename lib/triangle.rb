@@ -10,7 +10,8 @@ class Triangle
   def kind 
     valid 
     if a == b && b == c 
-      
+      :equilateral 
+      elsif 
     
   
   def valid
